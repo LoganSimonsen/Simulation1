@@ -1,0 +1,108 @@
+@import url('https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans');
+
+.App {
+  font-family: open-sans, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.App-logo {
+margin-top: 5px;
+}
+
+.App-header {
+  background-color: #AB2A19;
+  padding: 20px;
+  color: white;
+  font-size: 46px;
+  width: 99vw;
+  padding-left: 216px;
+}
+
+.Shelf-header {
+  background-color: #AB2A19;
+  padding: 20px;
+  color: white;
+  font-size: 46px;
+  width: 24vw;
+  text-align: center;
+  
+}
+.Shelf-A {
+  background-color: #d34735;
+  padding: 20px;
+  padding-top: 35px;
+  color: white;
+  font-size: 45px;
+  width: 70vw;
+  text-align: left;
+}
+.BinHeader{
+  position: absolute;
+  right: 0px;
+  background-color: #ed6b5a;
+  padding: 20px;
+  padding-top: 35px;
+  color: white;
+  font-size: 45px;
+  width: 55vw;
+  text-align: left;
+  height: 69px;
+}
+.Bin-Button {
+  width: 50vw;
+  background-color: #ed6b5a;
+  margin-left: 26.5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 30px;
+  padding-left: 100px;
+  text-align: left;
+  color: white;
+  font-size: 35px;
+}
+.Home-buttons{
+  width: 50vw;
+  background-color: #AB2A19;
+  margin-left: 26.5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 30px;
+  padding-left: 100px;
+  text-align: left;
+  color: white;
+  font-size: 35px;
+}
+.Add-Button{
+  width: 50vw;
+  background-color: #ffb8af;
+  margin-left: 26.5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 30px;
+  padding-left: 100px;
+  text-align: left;
+  color: black;
+  font-size: 35px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.binForm {
+padding: 200px;
+}
